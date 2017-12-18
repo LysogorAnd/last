@@ -1,0 +1,14 @@
+<aside class="list music aside section">
+    <div class="section-inner">
+        <h2 class="heading">Pages</h2>
+        <div class="content">
+            <ul class="list-unstyled">
+                {% for onepage in pages %}
+                    <li>
+                        <i class="fa fa-headphones"></i><a href="{{ path('show_page', {'pagename': onepage}) }}">{{ onepage|title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div><!--//content-->
+    </div><!--//section-inner-->
+</aside><!--//section-->

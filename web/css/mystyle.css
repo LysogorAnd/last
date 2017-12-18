@@ -1,0 +1,10 @@
+.show_page_block {
+    min-height: 600px;
+}
+.logo_title {
+    text-decoration: none;
+    color:#778492;
+}
+.logo_title:hover {
+    color:#778492;
+}
